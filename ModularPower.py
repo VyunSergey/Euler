@@ -28,7 +28,7 @@ def digits_sum(base, pwr):
 
 
 if __name__ == '__main__':
-    # print(2**100, digits_sum(2, 100))
+    print(2**100, digits_sum(2, 100))
     arr = []
     num = 2**1000
     print(digits_sum(2, 1000))
